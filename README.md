@@ -1,14 +1,14 @@
 # Server-conf
-#Server Details:
+# Server Details:
  IP: 52.88.24.229
  DNS: http://www.ahmedserag.tk/
  password for grader: grader
-#SSH connect:
+# SSH connect:
  ssh -i "linxCourse.pem" grader@ec2-50-112-217-158.us-west-2.compute.amazonaws.com  -p 2200
-#firewall:
+# firewall:
  deny incoming
  allow ports 2200 / 80 / 123/
-#installation
+# installation
 apachy 
 mod-wsgi
 python
@@ -17,6 +17,6 @@ flask
 sqlalchemy 
 PostgreSQL 
 requests
-#resources:
+# resources:
 https://github.com/jaikathuria/FullStack-Project--8
 
